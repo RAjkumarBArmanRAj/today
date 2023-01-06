@@ -2,11 +2,13 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* .text-primary */
 .text-primary {
     background: black;
     color: aliceblue;
 }
+
 /* header  */
 .header {
     background: #FAFAFA;
@@ -33,6 +35,7 @@
     font-size: 18px;
     margin-bottom: 10px;
 }
+
 /* button  */
 .btn-primary {
     color: #FAFAFA;
@@ -52,42 +55,102 @@
     font-size: 18px;
 
 }
+
 /* donate */
-.donate{
+.donate {
     text-align: center;
     margin: 0 250px;
 }
-.donate-start{
-    
-}
-.donate-title{
+
+.donate-start {}
+
+.donate-title {
     font-weight: 700;
     font-size: 64px;
+    margin-top: 50px;
 }
-.donate-decription{
+
+.donate-decription {
     color: #707070;
     border-bottom: 50px;
+    margin-top: 25px;
 }
-.amount{
+
+.amount {
     display: flex;
+    justify-content: center;
     gap: 55px;
 }
-.orange{
+
+.orange {
     color: #FF5959;
     border: 1px solid #FF5959;
     padding: 30px 40px;
 }
-.taka{
+
+.taka {
     background: #FAFAFA;
-border-radius: 5px;
-padding: 30px 40px;
-color: #707070;
-margin-top: 50px;
+    border-radius: 5px;
+    padding: 30px 40px;
+    color: #707070;
+    margin-top: 50px;
 }
-.another-amount{
+
+.another-amount {
     color: #B3B3B3;
     margin-top: 100px;
     margin-bottom: 25px;
     text-align: center;
-    
+
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.plan-decription {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin: 35px 20px;
+}
+
+.box {
+    display: flex;
+    gap: 24px;
+}
+
+.box-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 20px auto;
+}
+
+.red {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    border: 0;
+    padding: 60px 30px 70px 30px;
+    margin-left: 100px;
+}
+.yellow {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    border: 0;
+    padding: 60px 30px 70px 30px;
+    margin-left: 100px;
+}
+.blue {
+    background: rgba(250, 205, 59, 0.1);
+    border-radius: 5px;
+    border: 0;
+    padding: 60px 30px 70px 30px;
+    margin-left: 100px;
 }
