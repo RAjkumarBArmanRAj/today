@@ -1,29 +1,40 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+/* .text-primary */
+.text-primary {
     background: black;
     color: aliceblue;
 }
-.header{
+/* header  */
+.header {
     background: #FAFAFA;
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
-    position: bottom right;
+    background-position: bottom right;
+
 }
-.banner{
+
+.banner {
     display: flex;
-    
+    margin: 0 150px;
+
 }
-.title{
+
+.title {
     font-weight: 700;
     font-size: 64px;
 }
-.decription{
+
+.decription {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
     margin-bottom: 10px;
 }
-.btn-primary{
+/* button  */
+.btn-primary {
     color: #FAFAFA;
     padding: 12px;
     border: 0;
@@ -31,8 +42,52 @@
     background: #FF5959;
     font-weight: 700;
     font-size: 16px;
+    margin-top: 25px;
 }
-.btn-secondary{
-    border: 0;
 
+.btn-secondary {
+    border: 0;
+    color: #707070;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+/* donate */
+.donate{
+    text-align: center;
+    margin: 0 250px;
+}
+.donate-start{
+    
+}
+.donate-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.donate-decription{
+    color: #707070;
+    border-bottom: 50px;
+}
+.amount{
+    display: flex;
+    gap: 55px;
+}
+.orange{
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    padding: 30px 40px;
+}
+.taka{
+    background: #FAFAFA;
+border-radius: 5px;
+padding: 30px 40px;
+color: #707070;
+margin-top: 50px;
+}
+.another-amount{
+    color: #B3B3B3;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    
 }
