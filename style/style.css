@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    background: black;
+    color: aliceblue;
+}
+.header{
+    background: #FAFAFA;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    position: bottom right;
+}
+.banner{
+    display: flex;
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.decription{
+    margin-bottom: 10px;
+}
+.btn-primary{
+    color: #FAFAFA;
+    padding: 12px;
+    border: 0;
+    border-radius: 5px;
+    background: #FF5959;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn-secondary{
+    border: 0;
+
+}
