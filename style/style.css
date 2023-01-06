@@ -140,6 +140,7 @@
     padding: 60px 30px 70px 30px;
     margin-left: 100px;
 }
+
 .yellow {
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
@@ -147,10 +148,80 @@
     padding: 60px 30px 70px 30px;
     margin-left: 100px;
 }
+
 .blue {
     background: rgba(250, 205, 59, 0.1);
     border-radius: 5px;
     border: 0;
     padding: 60px 30px 70px 30px;
     margin-left: 100px;
+}
+
+.contains {
+    display: flex;
+    gap: 25px;
+    margin: 50px auto;
+}
+
+.contain {
+    padding: 100px 50px 50px 100px;
+}
+
+.contain-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.contain-decription {
+    margin-bottom: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.containst {
+    
+    
+}
+
+.containt {
+    display: flex;
+    gap: 25px;
+}
+
+.contain-titlet {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.contain-decriptiont {
+    margin-bottom: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.update{
+    text-align: center;
+    
+    margin: 60px;
+          
+}
+.update-title{
+    margin-bottom: 10px;
+
+    
+}
+.update-decription{
+    color: #707070;
+    margin-bottom: 60px;
+}
+.btn-primarys{
+    border-radius: 5px;
+    background: #FFF4D6;
 }
